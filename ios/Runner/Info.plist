@@ -45,6 +45,7 @@
 	<key>UIRequiresFullScreen</key>
 	<true/>
 	<key>UISupportedInterfaceOrientations</key>
+	
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
@@ -54,5 +55,14 @@
     <string>audio</string>
     <string>processing</string>
 </array>
+<key>BGTaskSchedulerPermittedIdentifiers</key>
+<array>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+</array>
 </dict>
 </plist>
+<dict>
+    <key>NSCameraUsageDescription</key>
+    <string>My_app_name needs to access the camera to do x_thing. 
+    </string>
+<dict>
